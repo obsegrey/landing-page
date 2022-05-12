@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.container div{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: #1F2937;
+    height: 50px;
+    flex: 1;
+}
+
+.main div{
+    flex: 1 1 400px;
+}
+
+.welcome {
+    background: #1F2937;
+}
+
+.quote {
+    background: #E5E7EB;
+}
+
+.footer {
+    background: #1F2937;
+    height: 50px;
+    flex: 1;
+}
